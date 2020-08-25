@@ -1,0 +1,73 @@
+/* pricing section  */
+.pricing-section {
+  background-color: rgb(238 238 239);
+}
+.pricing-items {
+  overflow: hidden;
+}
+.pricing-item {
+  float: left;
+  width: 30%;
+  padding: 20px 15px;
+  text-align: center;
+  border: 1px solid #c5c5c5;
+}
+.pricing-item:hover .pricing-dollar {
+  color: #ffffff;
+}
+.pricing-item:hover .pricing-span {
+  color: #ffffff;
+}
+
+.pricing-item.ttb-effect {
+  z-index: 1;
+}
+.pricing-item.mg {
+  margin: 0px 5%;
+}
+
+.pricing-title {
+  color: #899989;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Rowdies", cursive;
+  padding: 10px 0 15px 0;
+}
+.pricing-circle {
+  border-radius: 50px;
+  width: 100px;
+  margin: auto;
+  height: 100px;
+  margin-bottom: 30px;
+  border: 1px solid rgb(76, 173, 238);
+}
+
+.pricing-dollar {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-size: 30px;
+  transition: color 1s;
+}
+.pricing-list {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.pricing-list li {
+  padding: 5px 0px;
+  color: #899989;
+}
+.pricing-span {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  transition: color 1s;
+}
+
+.pricing-btn {
+  padding: 10px;
+  border: 1px solid rgb(58, 178, 248);
+  color: rgb(58, 178, 248);
+  min-width: 115px;
+  font-size: 17px;
+}

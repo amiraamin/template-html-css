@@ -1,0 +1,44 @@
+/* Home section*/
+.home {
+  background-image: url(../images/background/background1.webp);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+.home-content {
+  position: absolute; /*خارج إطار الصفحة*/
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 65%;
+}
+
+.home .title {
+  color: #ffffff;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+.home .desc {
+  margin: 20px 0px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.home .btn {
+  min-width: 150px;
+  border-radius: 5px;
+  padding: 10px 0px;
+  margin: 6px 5px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+.home .btn-start {
+  background-color: #ffffff;
+}
+.home .btn-learn {
+  background-color: rgb(58, 178, 248);
+  color: #ffffff;
+}

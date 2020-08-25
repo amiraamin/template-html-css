@@ -1,0 +1,59 @@
+/*    3.0 Header section  */
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 10; /* to put nav on the background */
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header-content {
+  overflow: hidden;
+}
+.header .nav {
+  width: 60%;
+  float: left;
+  list-style: none;
+  text-align: right;
+}
+.header .logo {
+  width: 40%;
+  float: left;
+}
+.header .logo img {
+  width: 25%;
+  margin-top: 5px;
+}
+.header .nav li {
+  display: inline-block;
+  text-align: center;
+}
+.header .nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 30px 15px;
+}
+.header .nav li a:after,
+.header .nav li a.active:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: blue;
+}
+.header .nav li a:hover:after {
+  /*when make hover on ( a ) call after */
+  width: 100%;
+  transition: 0.5s;
+}
+.header .nav li a:after {
+  width: 0%;
+}
+.header .nav li a.active:after {
+  width: 100%;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+}

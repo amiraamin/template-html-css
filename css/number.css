@@ -1,0 +1,30 @@
+/* number-section */
+.number-section {
+  background-image: url(../images/background/background2.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  position: relative;
+}
+.number-items {
+  overflow: hidden;
+}
+.number-item {
+  float: left;
+  width: 20%;
+  margin: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.number-item .icon {
+  color: #3ab2f8;
+  margin-bottom: 10px;
+}
+.number-item-text {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.number-item-title {
+  color: #ffffff;
+  font-size: 25px;
+}

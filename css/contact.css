@@ -1,0 +1,76 @@
+/* contact section */
+.contact-items {
+  overflow: hidden;
+}
+.contact-item {
+  width: 30%;
+  float: left;
+}
+.contact-item.mg {
+  margin: 0 5%;
+}
+.contact-item i {
+  margin-bottom: 10px;
+  color: #00b1ce;
+}
+.contact-spa {
+  display: block;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.contact-data {
+  color: #cacaca;
+  font-size: 20px;
+}
+
+.contact-items {
+  text-align: center;
+}
+
+.contact-section form {
+  text-align: center;
+  margin: 30px 100px;
+}
+.contact-section form input {
+  padding: 15px 10px;
+  margin: 10px 0px;
+  font-size: 15px;
+  height: 30px;
+  border: none;
+  color: #8a8a8a;
+  background-color: #efefef;
+}
+/* .contact-section form label {
+     back
+  }  */
+
+.contact-section form .name,
+.email {
+  width: 40%;
+}
+.contact-section form .subject,
+.message {
+  display: inline-block;
+  margin: auto;
+  width: 81%;
+}
+
+.contact-section .btn-learn {
+  min-width: 150px;
+  border-radius: 5px;
+  padding: 10px 0px;
+  margin: 6px 5px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgb(58, 178, 248);
+  color: #ffffff;
+}
+.contact-section {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  background-color: #242631;
+}
